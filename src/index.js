@@ -12,7 +12,7 @@ import App from './App';
 
 // const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
-// const store = createStore(combineReducers({ cart, restaurants, restaurantsTypes, products, paymentTypes, order }), composeEnhancers(applyMiddleware(thunk), persistState()));
+// const store = createStore(combineReducers({ reducer }), composeEnhancers(applyMiddleware(thunk), persistState()));
 
 ReactDOM.render(
   <BrowserRouter>
