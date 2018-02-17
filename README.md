@@ -31,7 +31,7 @@ cp tpl/config.json.tpl config.json
 # Install node packages
 npm i
 
-# Download the docker http server
+# Download the node docker image
 sudo docker pull node:9.2-slim
 
 # Go to the local web server folder
